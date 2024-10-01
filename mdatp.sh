@@ -15,8 +15,6 @@ cd /root
 # Download the mde_installer.sh script
 curl -O https://raw.githubusercontent.com/microsoft/mdatp-xplat/refs/heads/master/linux/installation/mde_installer.sh
 
-curl -O https://raw.githubusercontent.com/kishor194/mdatp/refs/heads/main/onboarding.py
-
 # Make the installer executable
 chmod u+x mde_installer.sh
 
