@@ -19,7 +19,7 @@ curl -O https://raw.githubusercontent.com/microsoft/mdatp-xplat/refs/heads/maste
 chmod u+x mde_installer.sh
 
 # Run the installer with the hostname used as the tag
-sudo /root/mde_installer.sh --install --channel prod --onboard /root/onboarding.py --tag "GROUP $VM_HOSTNAME" --min_req -y
+sudo ./mde_installer.sh --install --channel prod --onboard onboarding.py --tag "GROUP $VM_HOSTNAME" --min_req -y
 
 # Enable real-time protection
 sudo mdatp config real-time-protection --value enabled
