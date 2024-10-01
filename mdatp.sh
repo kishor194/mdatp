@@ -10,7 +10,7 @@ VM_HOSTNAME=$(hostname)
 echo "The hostname of this VM is: $VM_HOSTNAME"
 
 # Navigate to /root directory
-cd /root
+#cd /root
 
 # Download the mde_installer.sh script
 curl -O https://raw.githubusercontent.com/microsoft/mdatp-xplat/refs/heads/master/linux/installation/mde_installer.sh
